@@ -3,7 +3,10 @@ import React from 'react'
 const Header = () => {
     return (
         <header className="header">
-          <h1>COVID-19</h1>
+          <h1>
+          {/* <img src="/public/service.JPG" alt="CCOVID"/> */}
+          <img src="service.JPG" alt="CCOVID"/>
+          </h1>
           <select>
             <option>국내</option>
             <option>국외</option>
